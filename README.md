@@ -7,6 +7,6 @@ How do you add decent absorbing boundary conditions so that you can pretend you'
 - A fully explicit finite difference method using second order equations,
 - A semi-implicit finite difference method using first order equations via an auxiliary differential equation.
 
-The nice thing about these methods is that the exact same files should work exactly the same in 3D (albeit quite slow and memory intensive) because MATLAB is rad like that.  Since my larger research requires absolute stability, hopefully a fully implicit method will appear soon.  This requires a completely different approach to thinking about integrating the wave equation so there will be a quick writeup for it as well.
+The nice thing about these methods is that the exact same files should work exactly the same in 3D (tweaked to add in the third dimension, albeit quite slow and memory intensive) because MATLAB is rad like that.  Since my larger research requires absolute stability, hopefully a fully implicit method will appear soon.  This requires a completely different approach to thinking about integrating the wave equation so there will be a quick writeup for it as well.
 
 With the exception of `setupPML.m` each of these files is a standalone file that you should be able to run to see how things play out for a standard oscillating source charge distribution.
